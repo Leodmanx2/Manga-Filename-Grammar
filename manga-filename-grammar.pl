@@ -264,6 +264,6 @@ group("Unknown") --> "[Unknown]".
 group(G) --> "[", string(G), "]".
 
 revision("") --> [].
-revision(R) --> " {v", digit(R), "}".
-revision(R) --> " {r", digit(R), "}".
-revision(R) --> " {", digit(R), "}".
+revision(R) --> "{v", digit(R), "}".
+revision(R) --> "{r", digit(R), "}".
+revision(R) --> "{", digit(R), "}".
